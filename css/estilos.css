@@ -61,6 +61,7 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
     margin: 0 auto;
     padding: 10px;
+    font-weight: 100;
 }
 .main-header__contactInfo__address{
     padding: 10px;
@@ -77,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     position: relative;
     z-index: 2000;
-    padding: 10px;
+    padding: 0px;
 }
 .icon-menu {
     display: block;
@@ -139,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
     background: #DE423A;
 }
 .mostrar {
-    height: 240px;
+    height: 270px;
 }
 
 /*-----------------------Estilos del banner-----------------------*/
@@ -177,11 +178,16 @@ h1, h2, h3, h4, h5, h6 {
 /*-----------------------Estilos principales-----------------------*/
 
 .group--color .container {
+    background: rgba(0,0,0,0.7);
+    color: white;
+    padding: 10px;
+    
+}
+.group--colores .container {
     background: #DE423A;
     color: white;
     padding: 10px;
 }
-
 .main__title {
     text-align: center;
     margin: 15px 0;
@@ -200,7 +206,7 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     text-align: center;
     text-decoration: none;
-    width: 120px;
+    width: 150px;
     background: #DE423A;
     color: white;
     padding: 10px;
@@ -268,7 +274,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*-----------------------Estilos responsive-----------------------*/
 
-@media screen and (min-width:510px) {
+@media screen and (min-width:500px) {
     .logo {
         color: white;
     }
@@ -277,6 +283,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     .main-header__contactInfo__phone {
         background: none;
+        
     }
     .main-header__contacInfo__address {
         color: white;
@@ -285,7 +292,7 @@ h1, h2, h3, h4, h5, h6 {
         background: rgba(0,0,0,0.85);
     }
     .banner {
-        margin-top: -150px;
+        margin-top: -130px;
         z-index: -1000;
     }
     .banner__content {
@@ -301,13 +308,14 @@ h1, h2, h3, h4, h5, h6 {
     }
     .main__about__description .btn {
         margin: 0;
+        width: 150px;
     }
     .today-special .column {
         border: 5px solid #ddd;
         padding: 5px;
     }
     .today-special__img {
-        height: 200px;
+        height: 300px;
         object-fit: cover;
     }
     .main-footer .container--flex {
@@ -322,8 +330,7 @@ h1, h2, h3, h4, h5, h6 {
     .column--33 {
         width: 32%;
     }
-    
-    
+
 }
 
 @media screen and (min-width:768px) {
@@ -352,7 +359,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media screen and (min-width:1024px) {
     .container {
-        width: 1000px;
+        width: 1100px;
     }
     .logo{
         font-size: 2em;
@@ -370,6 +377,10 @@ h1, h2, h3, h4, h5, h6 {
     }
     .banner__img {
         height: 600px;
+    }
+    .banner {
+        margin-top: -140px;
+        z-index: -1000;
     }
     .icon-menu {
         display: none;
@@ -406,9 +417,13 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-@media screen and (min-width:1600px) {
+@media screen and (min-width:1300px) {
     .container {
-        width: 1400px;
+        width: 1329px;
+    }
+    .banner {
+        margin-top: -160px;
+        z-index: -1000;
     }
     .main__about__description .column:nth-chlid(1) img{
         width: 100%;
