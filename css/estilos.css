@@ -295,11 +295,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .auspician__img{
     width: 600px;
-    height: 50px;
+    height: 80px;
     object-fit: 10;
     margin: 0px;
     shape-margin: 0;
-    max-width: 400px;
+    max-width: 440px;
 }
 .imgg{
     
