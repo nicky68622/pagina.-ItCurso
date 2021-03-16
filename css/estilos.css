@@ -306,12 +306,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 /*-----------------------Estilos responsive-----------------------*/
 
-@media screen and (min-width:350px) {
+@media screen and (min-width:300px) {
     .logo {
         color: white;
+        font-size: 1.2em;
     }
     .main-header__contactInfo{
         text-align: right;
+        font-size: 0.9em;
     }
     .main-header__contactInfo__phone {
         background: none;
@@ -324,7 +326,7 @@ h1, h2, h3, h4, h5, h6 {
         background: rgba(0,0,0,0.85);
     }
     .banner {
-        margin-top: -162px;
+        margin-top: -128px;
         z-index: -1000;
     }
     .banner__content {
