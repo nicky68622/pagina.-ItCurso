@@ -292,7 +292,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*-----------------------Estilos responsive-----------------------*/
 
-@media screen and (min-width:230px) {
+@media screen and (min-width:370px) {
     .logo {
         color: white;
     }
@@ -310,11 +310,11 @@ h1, h2, h3, h4, h5, h6 {
         background: rgba(0,0,0,0.85);
     }
     .banner {
-        margin-top: -213px;
+        margin-top: -162px;
         z-index: -1000;
     }
     .banner__content {
-        font-size: 2em;
+        font-size: 1.2em;
     }
     .main {
         padding-bottom: 15px;
