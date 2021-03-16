@@ -72,6 +72,24 @@ h1, h2, h3, h4, h5, h6 {
     top: 2px;
     right: 5px;
 }
+#app-whasapp{
+    position: fixed;
+    right: 24px;
+    bottom: 25px;
+    width: 60px;
+    z-index: 1000;
+    display: none;
+}
+#app-whasapp{
+    bottom: 95px;
+    display: block;
+}
+#app-whasapp i{
+    font-size: 63px;
+}
+#app-whasapp i{
+    color: #0084ff;
+}
 
 /*-----------------------Estilos del menu-----------------------*/
 .main-nav{
@@ -274,7 +292,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*-----------------------Estilos responsive-----------------------*/
 
-@media screen and (min-width:500px) {
+@media screen and (min-width:400px) {
     .logo {
         color: white;
     }
@@ -292,7 +310,7 @@ h1, h2, h3, h4, h5, h6 {
         background: rgba(0,0,0,0.85);
     }
     .banner {
-        margin-top: -130px;
+        margin-top: -162px;
         z-index: -1000;
     }
     .banner__content {
