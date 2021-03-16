@@ -72,7 +72,7 @@ h1, h2, h3, h4, h5, h6 {
     top: 2px;
     right: 5px;
 }
-.app-whasapp{
+#app-whasapp{
     position: fixed;
     right: 24px;
     bottom: 25px;
@@ -80,14 +80,14 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 1000;
     display: none;
 }
-.app-whasapp{
+#app-whasapp{
     bottom: 95px;
     display: block;
 }
-.app-whasapp i{
+#app-whasapp i{
     font-size: 63px;
 }
-.app-whasapp i {
+#app-whasapp i {
     color: #0084ff;
 }
 
@@ -292,7 +292,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*-----------------------Estilos responsive-----------------------*/
 
-@media screen and (min-width:400px) {
+@media screen and (min-width:300px) {
     .logo {
         color: white;
     }
