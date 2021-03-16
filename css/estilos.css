@@ -306,7 +306,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /*-----------------------Estilos responsive-----------------------*/
 
-@media screen and (min-width:370px) {
+@media screen and (min-width:350px) {
     .logo {
         color: white;
     }
