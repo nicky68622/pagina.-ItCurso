@@ -72,23 +72,27 @@ h1, h2, h3, h4, h5, h6 {
     top: 2px;
     right: 5px;
 }
-#app-whasapp{
+#app-messenger, #app-whatsapp{
     position: fixed;
-    right: 24px;
+    right: 25px;
     bottom: 25px;
     width: 60px;
     z-index: 1000;
     display: none;
 }
-#app-whasapp{
+#app-whatsapp{
     bottom: 95px;
     display: block;
 }
-#app-whasapp i{
+
+#app-messenger i,#app-whatsapp i{
     font-size: 63px;
 }
-#app-whasapp i {
+#app-whatsapp i{
     color: #0084ff;
+}
+#app-messenger i{
+    color: #DE423A;
 }
 
 /*-----------------------Estilos del menu-----------------------*/
@@ -289,7 +293,17 @@ h1, h2, h3, h4, h5, h6 {
     top: 3px;
     right: 5px; 
 }
-
+.auspician__img{
+    width: 600px;
+    height: 50px;
+    object-fit: 10;
+    margin: 0px;
+    shape-margin: 0;
+    max-width: 400px;
+}
+.imgg{
+    
+}
 /*-----------------------Estilos responsive-----------------------*/
 
 @media screen and (min-width:370px) {
